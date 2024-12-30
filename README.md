@@ -21,8 +21,18 @@ It is given that the cost of repairing a generator is much less than the cost of
 
 ## Data Description
 
-The data provided is a transformed version of original data which was collected using sensors.
+The data provided is a transformed version of the original data which was collected using sensors.
 Train.csv - To be used for training and tuning of models. 
 Test.csv - To be used only for testing the performance of the final best model.
 Both the datasets consist of 40 predictor variables and 1 target variable
 
+## Business Insights and Conclusions 
+
+The most important features in the model were identified as v36, v18 and v39. These features have an important role in predicting generator failures and should be monitored and analyzed constantly to detect signs of possible failures.
+
+These features can provide valuable insights for strengthening the maintenance program and optimizing the functioning of the generators.
+
+We can use the models to predict when a generator is likely to fail. Renewind can prevent breakdowns and reduce repair costs by prioritizing maintenance based on these predictions.
+The model with undersampling demonstrates strong performance in terms of recall(0.87 in the test set) but also shows a high accuracy(0.98 in the test set) score. This helps to minimize the false negatives.
+
+It is important to keep monitoring and evaluating the performance of the implemented models. By collecting new data and re-training the models periodically, we ensure they remain effective in handling changing trends and patterns.
